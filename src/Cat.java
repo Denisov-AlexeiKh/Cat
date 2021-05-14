@@ -2,12 +2,8 @@ public abstract class Cat {
     private String name;
     private String breed;
 
-    public String getName() {
-        return name;
-    }
+    public abstract String getName();
 
-    public String getBreed() {
-        return breed;
-    }
+    public abstract String getBreed();
 }
 
