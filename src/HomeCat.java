@@ -14,7 +14,7 @@ public class HomeCat extends Cat {
     }
 
     public void spoilShoes( ) {
-        System.out.println(name +" " + breed +": The bomb was planted");
+        System.out.println(name +" " + breed +": The bomb has planted");
         master.decreaseMoney(10);
     }
 
