@@ -1,4 +1,4 @@
-public class WildCat {
+public class WildCat extends Cat {
     private  String name;
     private  String breed;
 
